@@ -1,22 +1,44 @@
 # Python Interview Questions
 
+Welcome to the **Python Interview Questions** repository! This repository is designed to help you understand Python concepts and prepare for technical interviews. Below are categorized questions along with code explanations.
+
+---
+
 ## Basics
-1. [D/B list and Tuple in Python](questions/db_list_tuple.md)
-2. [How do sets help in removing duplicates from a list?](questions/sets_remove_duplicates.md)
-3. [Why are dictionaries faster than lists for lookups?](questions/dictionary_vs_list.md)
-4. [How are Python strings immutable if they allow operations like `replace()`?](questions/string_immutable.md)
+
+1. [Difference Between List and Tuple in Python](q1_list_vs_tuple.py)  
+2. [How Do Sets Help in Removing Duplicates from a List?](q2_set_remove_duplicates.py)  
+3. [Why Are Dictionaries Faster Than Lists for Lookups?](q3_dict_vs_list_lookup.py)  
+4. [How Are Python Strings Immutable if They Allow Operations Like `replace()`?](q4_string_immutable.py)  
+
+---
 
 ## Advanced
-5. [How do you merge two dictionaries in Python (latest version)?](questions/merge_dictionaries.md)
-6. [Explain dictionary comprehension with an example.](questions/dictionary_comprehension.md)
-7. [What are nested dictionaries, and how do you access inner values?](questions/nested_dictionaries.md)
-8. [How can you convert a list of tuples into a dictionary?](questions/list_to_dict.md)
-9. [How would you handle a missing key in a dictionary?](questions/missing_key.md)
-10. [Can we use a list as a key in a dictionary? Why or why not?](questions/list_as_key.md)
+
+5. [How Do You Merge Two Dictionaries in Python (Latest Version)?](q5_merge_dicts.py)  
+6. [Explain Dictionary Comprehension with an Example](q6_dict_comprehension.py)  
+7. [What Are Nested Dictionaries, and How Do You Access Inner Values?](q7_nested_dict.py)  
+8. [How Can You Convert a List of Tuples Into a Dictionary?](q8_list_of_tuples_to_dict.py)  
+9. [How Would You Handle a Missing Key in a Dictionary?](q9_handle_missing_key.py)  
+10. [Can We Use a List as a Key in a Dictionary? Why or Why Not?](q10_list_as_key.py)  
+
+---
 
 ## Code Challenges
-11. [What happens if you try to add a mutable object to a set?](questions/mutable_object_in_set.md)
-12. [Write a code to find common elements in two lists using set operations.](code_samples/common_elements.py)
-13. [What is the difference between `is` and `==` for strings?](questions/is_vs_equals.md)
-14. [How does slicing work in tuples and strings?](questions/slicing_tuples_strings.md)
-15. [How can you reverse a string or list in Python using slicing?](code_samples/reverse_string_list.py)
+
+11. [What Happens If You Try to Add a Mutable Object to a Set?](q11_mutable_in_set.py)  
+12. [Write a Code to Find Common Elements in Two Lists Using Set Operations](q12_common_elements.py)  
+13. [What Is the Difference Between `is` and `==` for Strings?](q13_is_vs_equals.py)  
+14. [How Does Slicing Work in Tuples and Strings?](q14_slicing.py)  
+15. [How Can You Reverse a String or List in Python Using Slicing?](q15_reverse_with_slicing.py)  
+
+---
+
+## How to Use
+
+1. Browse through the categories above to find the topic you're interested in.
+2. Click on any linked question to view its explanation and code.
+3. Clone the repository and test the code on your local machine:
+   ```bash
+   git clone https://github.com/Mahesreddymahi/python-interview-questions.git
+   cd python-interview-questions
